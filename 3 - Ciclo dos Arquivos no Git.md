@@ -1,4 +1,4 @@
-<h1>CiClo dos Arquivos no Git</h1>
+<h1>Ciclo dos Arquivos no Git</h1>
 
 <p>O git e separado em 4 estados</p>
 
@@ -6,4 +6,14 @@
 
 <h2>Primeiro Estado UNTRACKED ou Não Rastreado</h2>
 
-<p>O untracked e o momento que o arquivo acabou de ser adicionado no repositorio porem ainda não esta rastreado pelo git ou seja o git não reconhece alguma versão que tenha esse arquivo</p>
+<p>O untracked e o momento que o arquivo acabou de ser adicionado no repositorio porem ainda não esta rastreado pelo git ou seja o git não reconhece alguma versão que tenha esse arquivo.</p>
+
+<h2>Segundo Estado UNMODIFIED ou Não Modificado</h2>
+
+<p>Apos que for adicionado o arquivo muda o seu estado para unmodified com isso o arquivo existe no git porem ele não sofreu nenhuma alteração ate o momento.</p>
+
+<h2>Terceiro Estado MODIFIED ou Modificado</h2>
+
+<p>Quando você modificar o arquivo , ira mudar para o estado de modified mostrando que o arquivo foi modificado que lhe permite ir para o ultimo estado.</p>
+
+<h2>Quarto Estado STAGED ou </h2>
