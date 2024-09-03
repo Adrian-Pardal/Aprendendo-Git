@@ -10,3 +10,7 @@ __Definir Nome__
 <p>Quando falamos em definir vamos usar o "config" do usuário que chamamos de "--global" para definir o nome.</p>
 <img src="Imagens De Ilustração/Configurando_git_name.png" padding-left="100px" width="500px">
 
+<p>O mesmo se aplica para definir o email do usuario.</p>
+<img src="Imagens De Ilustração/Configurando_git_name.png"  width="500px">
+
+
