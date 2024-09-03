@@ -1,4 +1,4 @@
-<h1> Começo do Git </h1>
+<h1> Iniciando no Git </h1>
 
 <img src="Imagens De Ilustração/Git Logo.jpeg" width="400px  " height="200px">
 
