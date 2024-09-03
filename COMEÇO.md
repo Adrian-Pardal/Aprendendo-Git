@@ -29,9 +29,9 @@
   git config --global core.editor "code --wait"
 ```
 
-<h3>Tabela Editores de Codigos</h3>
+<h3>Tabela Editores de Códigos</h3>
 
-| Editor Codigo                                      | comando Git                                                                                 |
+| Editor Código                                      | comando Git                                                                                 |
 | ---------------------------------------------------| --------------------------------------------------------------------------------------------|
 | VS Code                                            | git config --global core.editor "code --wait"                                               |
 | Atom                                               | git config --global core.editor "atom --wait"                                               |
@@ -42,3 +42,12 @@
 | Sublime Text (Windows, instalação de 32 bits)      |git config --global core.editor "'c:/program files (x86)/sublime text 3/sublimetext.exe' -w" |
 | Sublime Text (Windows, instalação de 64 bits)      |git config --global core.editor "'c:/program files/sublime text 3/sublimetext.exe' -w"       |
 | Text Mate                                          | git config --global core.editor "mate -w"                                                   |
+
+
+<h3> Acessa Suas Configurações </h3>
+<p> precisamos verificar se definições que colocamos acima foi efetuado para isso usamos o "--list".</p>
+
+```
+  git config --list
+```
+>Obs : Levando em conta que você ja verificou se suas informações esta certa. Para sair da função "list" aperte a letra "Q" para encerrar o processo no git.
