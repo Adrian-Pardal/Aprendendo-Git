@@ -36,7 +36,7 @@
 
 <p>Se escrever git status novamento vai mecionar o estado do arquivo como não adicionamos ainda o arquivo estara em untracked. Com isso o arquivo foi criado porem o git não reconhece.</p>
 
-<img src="">
+<img src="Imagens De Ilustração/untracked.png" width="900px">
 
 
 
