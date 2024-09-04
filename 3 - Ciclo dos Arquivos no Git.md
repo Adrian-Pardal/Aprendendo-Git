@@ -16,4 +16,6 @@
 
 <p>Quando você modificar o arquivo , ira mudar para o estado de modified mostrando que o arquivo foi modificado que lhe permite ir para o ultimo estado.</p>
 
-<h2>Quarto Estado STAGED ou </h2>
+<h2>Quarto Estado STAGED ou preparado </h2>
+
+<p>Quando o arquivo ja estiver indexado vai estar no ultimo estado que eo staged.Deste modo fazendo o commit vai ser criado uma versão com todos os arquivos , e irão voltar para o estado de Unmodified ou seja "nada modificado desda ultima versão criada" . </p>
