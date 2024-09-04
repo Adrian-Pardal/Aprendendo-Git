@@ -20,3 +20,7 @@
 <h2>Quarto Estado STAGED ou preparado </h2>
 
 <p>Quando o arquivo ja estiver indexado vai estar no ultimo estado que eo staged.Deste modo fazendo o commit vai ser criado uma versão com todos os arquivos , e irão voltar para o estado de Unmodified ou seja "nada modificado desda ultima versão criada" . </p>
+
+
+<h2></h2>
+
