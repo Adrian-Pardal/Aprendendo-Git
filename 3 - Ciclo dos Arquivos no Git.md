@@ -22,5 +22,49 @@
 <p>Quando o arquivo ja estiver indexado vai estar no ultimo estado que eo staged.Deste modo fazendo o commit vai ser criado uma versão com todos os arquivos , e irão voltar para o estado de Unmodified ou seja "nada modificado desda ultima versão criada" . </p>
 
 
-<h2></h2>
+<h1>Vendo Na Prática</h1>
+
+<h2>Git Status</h2>
+
+<p>O primeiro comando que e importante aprender no git eo "git status". O git status ele serve para reportar como esta seu repositorio.</p>
+
+```
+    git status
+```
+
+<p>Criando um novo arquivo vamos ver o estado no git  . Exemplo : Estadogit.md </p>
+
+<p>Se escrever git status novamento vai mecionar o estado do arquivo como não adicionamos ainda o arquivo estara em untracked. Com isso o arquivo foi criado porem o git não reconhece.</p>
+
+<img src="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
