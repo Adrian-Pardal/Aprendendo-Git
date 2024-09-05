@@ -53,3 +53,27 @@
 | Vermelho         | numero de commits do author       |
 | Verde            |   nome do author dos commits      |
 
+<p>Um outro tipo de log e o "git log --graph" vai nos mostra de forma grafica os nossos commits e branches o que esta acontecendo ate o momento.</p>
+
+<img src="Imagens De Ilustração/git_log_graph.png">
+
+```
+  git log --graph
+```
+
+>OBS : Cada asterisco mostra a sequencia do commits do ultimo ao primeiro.
+
+<p>Cim a função log conseguimos ver o que aconteceu no commit usando o hash . Essa função git show + hash.</p>
+
+```
+  git show hash
+```
+
+<img src="Imagens De Ilustração/git_show.png">
+
+|Cor               |Oque é?                            |
+|------------------|-----------------------------------|
+| Vermelho         | O que foi excluido.               |
+| Verde            | O que foi adicionado.             |
+
+
