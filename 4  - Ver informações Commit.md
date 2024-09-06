@@ -97,7 +97,7 @@
 
 <img src="Imagens De Ilustração/git_diff_nameonly.png">
 
-<p>Uma Dia! Se usarmos "git commit -am + "descrição" ja adiciona e faz commit ao memsmo tempo.</p>
+<p>Uma Dica! Se usarmos "git commit -am + "descrição" ja adiciona e faz commit ao memsmo tempo.</p>
 
 >OBS : E como se fosse o git add mais o commit.
 
