@@ -66,8 +66,10 @@
 <p>Cim a função log conseguimos ver o que aconteceu no commit usando o hash . Essa função git show + hash.</p>
 
 ```
-  git show hash
+  git show 
 ```
+
+>OBS :  O hash e identificação do commit
 
 <img src="Imagens De Ilustração/git_show.png">
 
@@ -75,5 +77,32 @@
 |------------------|-----------------------------------|
 | Vermelho         | O que foi excluido.               |
 | Verde            | O que foi adicionado.             |
+
+
+
+<h1>Git Diff</h1>
+
+<p>Caso queria ver a alterações antes de fazer o commit usando "git diff" vai lhe mostra a sua modificação antes de comitar use sempre antes de fazer commit.</p>
+
+```
+  git diff
+```
+<img src="Imagens De Ilustração/git_diff.png">
+
+<p>Conseguimos so ver o nome do arquivo que modificado .</p>
+
+```
+  git diff --name-only
+```
+
+<img src="Imagens De Ilustração/git_diff_nameonly.png">
+
+<p>Uma Dia! Se usarmos "git commit -am + "descrição" ja adiciona e faz commit ao memsmo tempo.</p>
+
+>OBS : E como se fosse o git add mais o commit.
+
+```
+  git commit -am " "
+```
 
 
