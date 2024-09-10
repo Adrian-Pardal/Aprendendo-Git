@@ -54,13 +54,13 @@ Aqui o link para fazer a ação . [GitHub SSH](https://docs.github.com/en/authen
 
 <h1>Ligando Repositorio Local a um Remoto</h1>
 
-<h2>Para ligar o repositorio localmente vai ter que ir no github no repositorio que criou porem o repositorio tem q vir sem o Readme.md na hora da criação.</h2>
+<h3>Para ligar o repositorio localmente vai ter que ir no github no repositorio que criou porem o repositorio tem q vir sem o Readme.md na hora da criação.</h3>
 
 <img src="Imagens De Ilustração/git_readme.png">
 
 > OBS : Não e pra marca essa caixinha  .
 
-<h2>Vai aparecer essa tela .</h2>
+<h3>Vai aparecer essa tela .</h3>
 
 <img src="Imagens De Ilustração/git_config_push.png">
 
@@ -86,3 +86,20 @@ Aqui o link para fazer a ação . [GitHub SSH](https://docs.github.com/en/authen
 <p>Vamos pegar o ultimo comando o git push o que ele faz? o git push vai pegar todos os arquivos que tem e envia para o github pro repositorio determinado . </p>
 
 > OBS : Temos o "-u" porque ? e quando fizer esse comando não precisa digitar todo vez o comando todo e vai digitar somente "git push".
+
+
+<h3>Como enviar sua mudanças pro repositorio remoto do github</h3>
+
+<p>Se fizer uma modificação no meu arquivo como subo para o github?</p>
+
+<p>Quando fizer a alteração ira ver que se for no git não tera nada pois o git push para isso temos que escrever "git push + nome da pasta default ex: origin + a nossa branch que e main" .</p>
+
+```
+  git push origin main
+```
+
+<h3>Clonando Repositorio Remoto</h3>
+
+<p>Como estamos trabalhando com codigo open source é bastante comum querer trabalhar em algum outro repositorio famoso ou ate mesmo pegar aquele codigo para trabalhar na nossa maquina localmente . </p>
+
+<p>A gente tem um comando chamado "git clone" que permite clonar todo um repositorio para uma maquina local "git clone + link do projeto + Escreve o nome do projeto.</p>
