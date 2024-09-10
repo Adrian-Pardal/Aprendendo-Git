@@ -51,3 +51,5 @@
   git config --list
 ```
 >Obs : Levando em conta que você ja verificou se suas informações esta certa. Para sair da função "list" aperte a letra "Q" para encerrar o processo no git.
+
+<p>Caso queira usar o vim para editar no proprio terminal do git para aprender entrar para editar usamos "i" e para sair pra salvar usamos butão "esc" e  para salvar sua alteração escreva ":wq" </p>
