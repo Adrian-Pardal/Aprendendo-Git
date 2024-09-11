@@ -52,4 +52,10 @@
 ```
 >Obs : Levando em conta que você ja verificou se suas informações esta certa. Para sair da função "list" aperte a letra "Q" para encerrar o processo no git.
 
+<p>Para entrar em um editor de texto externo que não seja no terminal do git . Ira entrar no git bash e dar o siguinte comando nome do editor que esta na tabela +o arquivo/pasta do projeto que quer mexer .</p>
+
+```
+  code --wait Readme.md
+```
+
 <p>Caso queira usar o vim para editar no proprio terminal do git para aprender entrar para editar usamos "i" e para sair pra salvar usamos butão "esc" e  para salvar sua alteração escreva ":wq" </p>
