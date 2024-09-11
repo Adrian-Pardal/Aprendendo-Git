@@ -117,3 +117,21 @@ Aqui o link para fazer a ação . [GitHub SSH](https://docs.github.com/en/authen
 <img src="Imagens De Ilustração/git_clone_opçoes.png">
 
 <h3>Como fazer um Fork </h3>
+
+<p>O que o fork faz : O fork ele pega um projeto que não é o seu e faz uma copia dele pra você . Digamos que tem um repositorio que quero ajuda a contribuir vimos um erro nele . </p>
+
+<p>Exemplo : Faltando documentação ou codigo e quero contribuir .</p>
+
+<p>Para criar um fork e so clicar no botão de fork no github . </p>
+
+<img src="Imagens De Ilustração/git_fork.png">
+
+<p>Agora so clicar em  create fork </p>
+
+<img src="Imagens De Ilustração/git_create_fork.png" width="600px">
+
+<p>O fork vai fazer uma copia toda do repositorio dentro do meu propio repositorio .</p>
+
+<p>O fork e bom nisso pra que a gente consigo fazer uma copia do projeto da pessoa e trabalhar nele pra depois mandar pelo pull request essa modificação e diferente do clone . O clone eu so consigo fazer pros repositorio que são meus de fato que depois consigo mandar minha modificação para o github.</p>
+
+<p>Se eu não for o dono do repositorio eu posso ate clonar porem não vou conseguir enviar as mudanças pro github pois o repositorio não é meu então quando quero fazer a modificação num repositorio que não e meu eu crio um fork.</p>
