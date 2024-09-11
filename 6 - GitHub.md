@@ -103,3 +103,17 @@ Aqui o link para fazer a ação . [GitHub SSH](https://docs.github.com/en/authen
 <p>Como estamos trabalhando com codigo open source é bastante comum querer trabalhar em algum outro repositorio famoso ou ate mesmo pegar aquele codigo para trabalhar na nossa maquina localmente . </p>
 
 <p>A gente tem um comando chamado "git clone" que permite clonar todo um repositorio para uma maquina local "git clone + link do projeto + Escreve o nome do projeto.</p>
+
+```
+  git clone
+```
+
+<p>Para copiar do link do repositorio que quer clonar  clicar vai em code la no github</p>
+
+<img src="Imagens De Ilustração/code.png">
+
+<p>Depois vamos escolher uma dessas opções de clonar recomendo o ssh por ser mais rapido e vai copiar o link abaixo.</p>
+
+<img src="Imagens De Ilustração/git_clone_opçoes.png">
+
+<h3>Como fazer um Fork </h3>
