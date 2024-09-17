@@ -8,6 +8,8 @@
 
 <p>Se começarmos um novo repositorio o primeiro branch que vamos ter vai se chamar "master".E cada vez que fizemos os commits a branch vai seguir os commits e vai ver a branch vai estar em cima do ultimo commit.</p>
 
+<img src="Imagens De Ilustração/git_gitpush_branch_e_nome.png">
+
 <h3>Vantagens</h3>
 
 <p>Por que usar? Quais vantagens?</p>
@@ -28,3 +30,9 @@
 > OBS : O -B e para que o git interprete que e vai criar uma nova branch
 
 <p>Se quiser ver se a branch foi criada digite "git branch" vai mostra todas as branches que tem nesse seu repositorio. A branch que estiver usando vai estar com um asteristico na frente . </p>
+
+```
+  git branch
+```
+
+<img src="Imagens De Ilustração/git_testando_branch.png">
