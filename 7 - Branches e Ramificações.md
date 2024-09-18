@@ -4,7 +4,7 @@
 
 <p>A forma de explicar branch que é um ponteiro que leva a um commit.</p>
 
-<img src="">
+<img src="Imagens De Ilustração/Branch.jpg">
 
 <p>Quando criamos um repositorio no git e cada vez que faz um commmit vai gerar um hash que é um conjunto de e letras e numeros com isso pra cada hash vai ser tirardo um snapshot "tira uma foto de tudo que foi alterado naquele momento."</p>
 
@@ -71,7 +71,7 @@
 
 <img src="">
 
-<p>Agora se criarmos outro commit pegando da branch master (principal) . Como master estava no N3 o novo branch ira direto para o N5  e se repararmos temos uma ramificação . </p>
+<p>Agora se criarmos outro commit pegando da branch master (principal) . Como master estava no N3 se criar o novo branch ira direto para o N5  e se repararmos temos uma ramificação . </p>
 
 <p>Porem se criarmos outro commit pegando do commit N4 vamos ter o N6 e N4 na branch separado fazendo parte da branch JKLS3. Enquanto o N5 ta pertecente ao master.</p>
 
@@ -79,11 +79,11 @@
 
 <h3>Jutando os commits</h3>
 
-<p>Unindi as branches pra juntar N4 e N6 e jogar no branch master(princiapl) e deixar linear a branch. Usando o merge vai acontecer dessa forma vamos pegar e criar um novo commit que é o N7 e ira juntar todas as modificações de N4 e N6 com o N5 e vai deixar novamente linear os commits.</p>
+<p>Unindo os branches pra juntar N4 e N6 e jogar no branch master(principal) e deixar linear a branch. Usando o merge vai acontecer dessa forma vamos pegar e criar um novo commit que é o N7 e ira juntar todas as modificações de N4 e N6 com o N5 e vai deixar novamente linear os commits.</p>
 
 <img src="">
 
->OBS : Reparando nessa junção foi preciso criar um novo commit e criou tambem um ciclo muitos chamam esse ciclo de forma diamante . Chamado assim porque cria uma >especie de triãngulo se notar os vertices .
+>OBS : Reparando nessa junção foi preciso criar um novo commit e criou tambem um ciclo muitos chamam esse ciclo de forma diamante . Chamado assim porque cria uma especie de triangulo se notar os vertices .
 
 <p>Se usarmos o merge sempre vai criar um novo commit pegando o branch secundario e colocando no branch principal por isso o N7 e a junção de N4 , N5 e N6. </p>
 
