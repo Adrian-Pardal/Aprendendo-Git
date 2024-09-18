@@ -103,15 +103,15 @@
 
 <h2>Passo a Passo Rebase</h2>
 
-<img src="">
+<img src="Imagens De Ilustração/Rebase_passo_a_passo1.jpg">
 
-<p>O rebase inves de adiciona outro commit ele ira pegar o branch "just" que tem seu commit A4 e vai mover para frente de onde ele estiver jogando que sera na frente do A5 que e a branch principal deixando linear . </p>
+<p>O rebase inves de adiciona outro commit ele ira pegar o branch "last" que tem seu commit A4 e vai mover para frente de onde ele estiver jogando que sera na frente do A5 que e a branch principal deixando linear . </p>
 
-<img src="">
+<img src="Imagens De Ilustração/Rebase_passo_a_passo2.jpg">
 
 <p>Basicamente rebase pega tudo que esta no branch separado e coloco no inicio da fila assim quanto o branch primario e o secundario vai esta apontando para o mesmo commit . Inves de ter uma arvore fazendo um ciclo vai ficar sempre linear . </p>
 
-<img src="">
+<img src="Imagens De Ilustração/Rebase_passo_a_passo3.jpg">
 
 
 <h3>Rebase pro e contra</h3>
