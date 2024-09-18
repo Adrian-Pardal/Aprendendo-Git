@@ -101,11 +101,18 @@
 <p>• Commit Extra : Esse commit não modificou nada so esta jutando os commits.  </p>
 <p>• Historico Poluido : Se estiver com muitos branches dificulta a leitura da arvore de commits.  </p>
 
-<p>Passo a Passo Rebase</p>
+<h2>Passo a Passo Rebase</h2>
 
-<p>O rebase inves de adiciona outro commit ele ira pegar o branch "just" que tem seu commit A3 e vai mover para frente de onde ele estiver jogando que sera na frente do A4 que e a branch principal deixando linear . </p>
+<img src="">
+
+<p>O rebase inves de adiciona outro commit ele ira pegar o branch "just" que tem seu commit A4 e vai mover para frente de onde ele estiver jogando que sera na frente do A5 que e a branch principal deixando linear . </p>
+
+<img src="">
 
 <p>Basicamente rebase pega tudo que esta no branch separado e coloco no inicio da fila assim quanto o branch primario e o secundario vai esta apontando para o mesmo commit . Inves de ter uma arvore fazendo um ciclo vai ficar sempre linear . </p>
+
+<img src="">
+
 
 <h3>Rebase pro e contra</h3>
 
