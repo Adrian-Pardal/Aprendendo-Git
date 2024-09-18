@@ -63,25 +63,28 @@
 
 <p>O inicio nos temos um branch com trêS commits e temos 2 branches. O branch master e o JKLS3 se reparar os dois estão Apontando para o mesmo commit N3 . </p>
 
+<img src="Imagens De Ilustração/Branch_passo_a_passo_1.jpg">
+
 <p>Agora vamos criar um novo commit que vai ser N4. Se nos repararmos a branch master ainda esta apontando para o commit N3 e o JKLS3 aponta para o N4.</p>
 
-<img src="">
+
 
 <p>Como fizemos o commit JKLS3 pegando do commit N3 ainda esta linear os commits . </p>
 
-<img src="">
+<img src="Imagens De Ilustração/Branch_passo_a_passo_2.jpg">
 
 <p>Agora se criarmos outro commit pegando da branch master (principal) . Como master estava no N3 se criar o novo branch ira direto para o N5  e se repararmos temos uma ramificação . </p>
+<img src="Imagens De Ilustração/Branch_passo_a_passo_3.jpg">
 
 <p>Porem se criarmos outro commit pegando do commit N4 vamos ter o N6 e N4 na branch separado fazendo parte da branch JKLS3. Enquanto o N5 ta pertecente ao master.</p>
 
-<img src="">
+<img src="Imagens De Ilustração/Branch_passo_a_passo_4.jpg">
 
 <h3>Jutando os commits</h3>
 
 <p>Unindo os branches pra juntar N4 e N6 e jogar no branch master(principal) e deixar linear a branch. Usando o merge vai acontecer dessa forma vamos pegar e criar um novo commit que é o N7 e ira juntar todas as modificações de N4 e N6 com o N5 e vai deixar novamente linear os commits.</p>
 
-<img src="">
+<img src="Imagens De Ilustração/Branch_passo_a_passo_5.jpg">
 
 >OBS : Reparando nessa junção foi preciso criar um novo commit e criou tambem um ciclo muitos chamam esse ciclo de forma diamante . Chamado assim porque cria uma especie de triangulo se notar os vertices .
 
