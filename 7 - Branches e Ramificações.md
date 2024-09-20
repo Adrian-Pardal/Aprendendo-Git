@@ -39,6 +39,15 @@
 
 <img src="Imagens De Ilustração/git_testando_branch.png">
 
+
+
+
+
+
+
+
+
+
 <h3>Movendo e Deletando Branches</h3>
 
 <p>Depois que criar os branches conseguimos navegar entre as branches. Para mover pra outro branch e so usar "git checkout main + nome do branch" .</p>
@@ -55,9 +64,23 @@
 
 <p>Agora digitando denovo git branch vai ver que não tera mais essa branch. </p>
 
+
+
+
+
+
+
 <h2>Unindo Branches</h2>
 
 <p>Unir branches temos dois metodos importantes que são "Merge" e "Reabase" . Os metodos fazer a mesma coisa unindo porem de formar diferentes.</p>
+
+
+
+
+
+
+
+
 
 <h3>Passo a Passo Merge</h3>
 
@@ -101,6 +124,38 @@
 <p>• Commit Extra : Esse commit não modificou nada so esta jutando os commits.  </p>
 <p>• Historico Poluido : Se estiver com muitos branches dificulta a leitura da arvore de commits.  </p>
 
+<h3>Pratica Merge</h3>
+
+<p>Para usar o merge na pratica temos que usar o comando git merge + nome da branch que quer unir</p>
+
+```
+  git merge 
+```
+
+<img src="Imagens De Ilustração/pratica_mergerebase_fazendomerge.png">
+
+<p>Quando fazer o merge  o diamente fica mais evidente.</p>
+
+<img src="Imagens De Ilustração/pratica_mergerebase_1.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h2>Passo a Passo Rebase</h2>
 
 <img src="Imagens De Ilustração/Rebase_passo_a_passo1.jpg">
@@ -128,3 +183,8 @@
 <p>Usando rebase nos acabamos mudando nosso historico então temos que tomar bastante cuidado porque se mudar o historioco e uma outra pessoa tambem esta trabalhando no mesmo branch o que pode acontecer e que não vai conseguir subir sua modificações por que o historico ta diferente.</p>
 
 > OBS : Em geral use o rebase sempre que for da o pull das modificações.
+
+
+<h3>Pratica Rebase</h3>
+
+<p>Para usar o rebase tambem vai ser igual o merge so que no lugar o rebase  então seri git rebase + nome da branch que colocar na frente .</p>
