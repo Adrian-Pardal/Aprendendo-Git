@@ -188,3 +188,7 @@
 <h3>Pratica Rebase</h3>
 
 <p>Para usar o rebase tambem vai ser igual o merge so que no lugar o rebase  então seri git rebase + nome da branch que colocar na frente .</p>
+
+<img src="Imagens De Ilustração/rebase.png">
+
+<p>Diferente do merge o rebase  vai ricar linear . </p>
